@@ -6,10 +6,10 @@ runs:
   main: dist/index.js
 
 inputs:
-  yourInstagram: RSSFEED
+  yourInstagram: 
     description: "Your Instagram username. This is required for authentication with the Instagram API."
     required: true
-  listOfInstagrams: leguideultime
+  listOfInstagrams: 
     description: "Public Instagram usernames comma delimited."
     required: true
   fileName:
