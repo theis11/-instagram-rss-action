@@ -9,7 +9,7 @@ inputs:
   yourInstagram: RSSFEED
     description: "Your Instagram username. This is required for authentication with the Instagram API."
     required: true
-  listOfInstagrams: sebastien_kardinal,no_diet_club,leserialpatissteur,foodgasm_travel,leguideultime
+  listOfInstagrams: leguideultime
     description: "Public Instagram usernames comma delimited."
     required: true
   fileName:
