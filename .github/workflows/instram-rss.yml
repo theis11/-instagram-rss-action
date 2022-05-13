@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v3
       - name: RSS
         id: rss
-        uses: katydecorah/instagram-rss-action@v0.3.0
+        uses: theis11/instagram-rss-action@v0.3.0
         with:
           yourInstagram: itsjustatest23
           listOfInstagrams: sebastien_kardinal,no_diet_club,leserialpatissteur,foodgasm_travel,leguideultime
