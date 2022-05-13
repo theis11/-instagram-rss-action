@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v3
       - name: RSS
         id: rss
-        uses: katydecorah/instagram-rss-action@v0.3.0 
+        uses: theis11/instagram-rss-action@v0.3.0 
         with:
           yourInstagram: katydecorah
           listOfInstagrams: leguideultime
