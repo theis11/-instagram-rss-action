@@ -15,12 +15,12 @@ jobs:
         id: rss
         uses: katydecorah/instagram-rss-action@v0.3.0 
         with:
-          yourInstagram: MidniteSuga_
-          listOfInstagrams: hancockgr
+          yourInstagram: katydecorah
+          listOfInstagrams: leguideultime
       - name: Commit files
         if: ${{ success() && steps.rss.outputs.RSS_STATUS == 'success' }}
         run: |
-          git config --local user.email "midnightsuga@protonmail.com"
+          git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git commit -am "Updated instagram.json"
           git push
